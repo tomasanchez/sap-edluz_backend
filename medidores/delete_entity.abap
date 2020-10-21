@@ -2,7 +2,7 @@
 
 METHOD MEDIDORESET_DELETE_ENTITY.
 
-    DATA: lv_idmeter TYPE ztca_elmedidores.
+    DATA: lv_idmeter TYPE ztca_elmedidores-idmeter.
     FIELD-SYMBOLS: <fs_key_tab> TYPE /iwbep/s_mgw_name_value_pair.
 
     READ TABLE it_key_tab ASSIGNING <fs_key_tab>
