@@ -13,7 +13,8 @@ method CLIENTESSET_UPDATE_ENTITY.
     io_data_provider->read_entry_data( IMPORTING es_data = er_entity ).
 
     UPDATE ztca_elmedidores
-    SET 
+    SET datem       = er_entity-datem
+        idcustomer  = er_entity-idcustomer
     WHERE idmeter EQ lv_id.
 
     IF sy-subrc EQ 0.
