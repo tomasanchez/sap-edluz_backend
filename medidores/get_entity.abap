@@ -1,7 +1,7 @@
 METHOD MEDIDORESSET_GET_ENTITY.
 
     DATA: ls_key_tab LIKE LINE OF it_key_tab,
-          lv_medkey   TYPE ztca_elmedidores.
+          lv_medkey   TYPE ztca_elmedidores-idmeter.
 
     READ TABLE it_key_tab INTO ls_key_tab WITH KEY name = 'Idmeter'.
     IF sy-subrc EQ 0.
