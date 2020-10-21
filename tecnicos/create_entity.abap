@@ -20,6 +20,8 @@ method TECNICOSSET_CREATE_ENTITY.
     INSERT ztca_eltecnicos 
         FROM ls_entity.
    
-    COMMIT WORK.
+    IF sy-subrc EQ 0.
+           COMMIT WORK.
+    ENDIF.
 
 endmethod.
