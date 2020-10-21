@@ -2,7 +2,7 @@
 
 METHOD TECNICOSSET_DELETE_ENTITY.
 
-    DATA: lv_id_tech TYPE ztca_eltecnicos.
+    DATA: lv_id_tech TYPE ztca_eltecnicos-idtech.
     FIELD-SYMBOLS: <fs_key_tab> TYPE /iwbep/s_mgw_name_value_pair.
 
     READ TABLE it_key_tab ASSIGNING <fs_key_tab>
