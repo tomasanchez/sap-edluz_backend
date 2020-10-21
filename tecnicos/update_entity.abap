@@ -7,7 +7,7 @@ method TECNICOSSET_UPDATE_ENTITY.
     WITH KEY name = 'Idtech'.
 
     IF sy-subrc EQ 0.
-        lv_id_clte = <fs_key_tab>-value.
+        lv_id_tec = <fs_key_tab>-value.
     ENDIF.
 
     io_data_provider->read_entry_data( IMPORTING es_data = er_entity ).
