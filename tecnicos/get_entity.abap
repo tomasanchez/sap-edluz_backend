@@ -3,7 +3,7 @@
 METHOD TECNICOSSET_GET_ENTITY.
 
     DATA: ls_key_tab LIKE LINE OF it_key_tab,
-          lv_teckey   TYPE ztca_eltecnicos.
+          lv_teckey   TYPE ztca_eltecnicos-idtech.
 
     READ TABLE it_key_tab INTO ls_key_tab WITH KEY name = 'Idtech'.
     IF sy-subrc EQ 0.
