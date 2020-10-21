@@ -1,4 +1,4 @@
-method CLIENTESSET_UPDATE_ENTITY.
+method TECNICOSSET_UPDATE_ENTITY.
 
     DATA: lv_id_tec TYPE ztca_eltecnicos-idtech.
     FIELD-SYMBOLS: <fs_key_tab> TYPE /iwbep/s_mgw_name_value_pair.
