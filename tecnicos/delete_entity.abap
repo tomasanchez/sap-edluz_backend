@@ -12,7 +12,7 @@ METHOD TECNICOSSET_DELETE_ENTITY.
             lv_id_tech = <fs_key_tab>-value.
         ENDIF.
     
-    DELETE FROMztca_eltecnicos WHERE id_clte EQ @lv_id_tech.
+    DELETE FROM ztca_eltecnicos WHERE id_clte EQ @lv_id_tech.
     
     IF sy-subrc EQ 0.
            COMMIT WORK.
