@@ -1,4 +1,4 @@
-method CLIENTESSET_UPDATE_ENTITY.
+method MEDIDORESSET_UPDATE_ENTITY.
 
     DATA: lv_id TYPE ztca_elmedidores-idmeter.
     FIELD-SYMBOLS: <fs_key_tab> TYPE /iwbep/s_mgw_name_value_pair.
