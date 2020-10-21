@@ -8,6 +8,7 @@ method TECNICOSSET_CREATE_ENTITY.
 
     io_data_provider->read_entry_data( IMPORTING es_data = er_entity ).
 
+    ls_entity-idtech    = er_entity-idtech.
     ls_entity-name      = er_entity-name.
     ls_entity-lastname  = er_entity-lastname.
     ls_entity-zip       = er_entity-zip.
