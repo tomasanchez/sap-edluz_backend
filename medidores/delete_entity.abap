@@ -12,7 +12,7 @@ METHOD MEDIDORESET_DELETE_ENTITY.
             lv_idmeter = <fs_key_tab>-value.
         ENDIF.
     
-    DELETE FROM ztca_elmedidoress WHERE id_clte EQ @lv_idmeter.
+    DELETE FROM ztca_elmedidoress WHERE idmeter EQ @lv_idmeter.
     
     IF sy-subrc EQ 0.
            COMMIT WORK.
