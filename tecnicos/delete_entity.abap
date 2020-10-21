@@ -13,7 +13,9 @@ METHOD TECNICOSSET_DELETE_ENTITY.
         ENDIF.
     
     DELETE FROMztca_eltecnicos WHERE id_clte EQ @lv_id_tech.
-
-    COMMIT WORK.
+    
+    IF sy-subrc EQ 0.
+           COMMIT WORK.
+    ENDIF.
 
 endmethod. 
