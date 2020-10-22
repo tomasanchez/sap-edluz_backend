@@ -20,7 +20,7 @@ method CXMSET_UPDATE_ENTITY.
     ENDIF.
     
     UPDATE ztca_elconsxmed
-    SET consumption     = er_entity-horarios
+    SET consumption     = er_entity-consumption
         idbill          = er_entity-idbill
         monthc          = er_entity-monthc
     WHERE idtech   EQ lv_idtech
