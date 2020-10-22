@@ -20,7 +20,7 @@ method TECNICOSSET_UPDATE_ENTITY.
       province  = er_entity-province
       city      = er_entity-city
       street    = er_entity-street
-    WHERE idtech EQ lv_id_tech.
+    WHERE idtech EQ lv_id_tec.
 
     IF sy-subrc EQ 0.
         COMMIT WORK.
