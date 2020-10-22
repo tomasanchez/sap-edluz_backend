@@ -6,7 +6,7 @@ method RXTSET_CREATE_ENTITY.
 
     io_data_provider->read_entry_data( IMPORTING es_data = er_entity ).
 
-    ls_entity-idmeter           = er_entity-idmeter.
+    ls_entity-idtech            = er_entity-idtech.
     ls_entity-idcomplaint       = er_entity-idcomplaint.
     ls_entity-dateclosed        = er_entity-dateclosed.
     ls_entity-diagnostico       = er_entity-diagnostico.
