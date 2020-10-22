@@ -5,6 +5,7 @@ Este repositorio alberga los metodos **CRUD** de las tablas utilizadas en el pro
 ## oData Service
 
 ZOS_CA_LUUC3_EDELUZ
+/sap/opu/odata/sap/ZOS_CA_LUUC3_EDELUZ_SRV/
 
 ## Tablas
 
